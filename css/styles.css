@@ -1,0 +1,86 @@
+
+.logo {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #06D6A0;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li{
+    display:inline;
+    margin-bottom: 10px;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: block;
+}
+.hero-content {
+    text-align: center;
+}
+.hero-image img {
+    max-width: 100%;
+}
+.call-to-action{
+    background-color: #FFD166;
+    padding: 30px 20px;
+}
+.products{
+    background-color: #F2F2F2;
+}
+img {
+    max-width: 100%
+}
+.about {
+    background-color: #26547C;
+    color: white;
+    padding: 30px 20px;
+}
+.team {
+    overflow: hidden;
+}
+.team-fun, .team-values, .team-meow {
+    float: left;
+    width: 33.33333%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #EF476F;
+}
+footer {
+    background-color: #06D6A0;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    padding: 0 20px;
+}

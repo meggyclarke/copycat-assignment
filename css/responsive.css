@@ -1,0 +1,40 @@
+
+@media screen and (min-width: 550px){
+    .navbar {
+        float: right;
+        padding: 0;
+    }
+    .hero {
+        overflow: hidden;
+        background-color: #26547C;
+        color: white;
+    }
+    .hero-content {
+        float: left;
+        width: 40%;
+        font-size: 25px;
+    }
+    .hero-image{
+        float:left;
+        width: 60%;
+        color: white;
+    }
+    .ul{
+        list-style: none;
+    }
+    .logo{
+        float:left;
+    }
+    .product-wrapper {
+    overflow: hidden;
+}
+.product-item {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+.product-item > img {
+    border: 3px solid black;
+}
+
+}
